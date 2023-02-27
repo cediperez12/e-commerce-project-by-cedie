@@ -16,6 +16,8 @@ import {
 import Pages from './pages'
 
 function App() {
+  console.log(process.env)
+
   return (
     <AuthWrapper>
       <Router>
